@@ -1,0 +1,26 @@
+{
+    "name": "gjae/laravel-telegram-log",
+    "type": "library",
+    "require": {
+        "illuminate/support": ">=5.4",
+        "illuminate/database": ">=5.4",
+        "guzzlehttp/guzzle": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giovanny",
+            "email": "gjavilae@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Gjae\\TelegramLogChannel\\": "src/",
+            "Gjae\\TelegramLogChannel\\Providers\\": "providers/"
+        }
+    }
+}
