@@ -22,5 +22,12 @@
             "Gjae\\TelegramLogChannel\\": "src/",
             "Gjae\\TelegramLogChannel\\Providers\\": "providers/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gjae\\TelegramLogChannel\\Providers\\TelegramChannelProvider"
+            ]
+        }
     }
 }
