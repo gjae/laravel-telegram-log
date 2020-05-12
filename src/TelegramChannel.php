@@ -72,7 +72,7 @@ class TelegramChannel extends AbstractProcessingHandler implements HandlerInterf
                 $this->sendMessageToChatId($chat_id, $record['message'],  $record['level']);
             } );
         else
-            $thi->sendMessageToChatId( $this->chat_id, $record['message'], $record['level'] );
+            $this->sendMessageToChatId( $this->chat_id, $record['message'], $record['level'] );
         
     }
 
