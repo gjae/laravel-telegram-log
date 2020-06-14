@@ -36,7 +36,7 @@ Next, copy the token (the one that has the format XXXX:YYYYYYYY) and save it in 
 
 # Usage
 
-Open your ".env file" and search for the following lines and paste the Token and Telegram Id (the ones you had copied before) as values for the following variables: 
+Open your ".env file" and look for the following lines and paste the Token and Telegram Id (the ones you had copied before) as values for the following variables: 
 
 1.  __TELEGRAM_BOT_ACCESS_TOKEN=__ paste here your __SECRET BOT API TOKEN__ ., 
 2. __TELEGRAM_CHAT_ID=__ paste here your chat ID
