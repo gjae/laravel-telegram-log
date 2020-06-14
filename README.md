@@ -20,7 +20,7 @@ Creation of new bots is managed by the BotFather.
 
 Search __[@BotFather](https://t.me/BotFather)__ on telegram or click here: __[botfhater](https://t.me/BotFather)__.
 
-Now, create a new bot by typing the command __/newbot__ into the BotFather chat box or choose it by clicking on the square button at the rigth corner of the chat box. Then, select "/newbot".  The name of your new bot must have the suffix "Bot", for example:__"laravel_log_bot", "LaravelBot"__. The BotFather will ask you a name and a username for your new bot (both of them must have the suffix "Bot").
+Now, create a new bot by typing the command __/newbot__ into the BotFather chat box or choose it by clicking on the square button at the rigth corner of the chat box. Then, select "/newbot".  The name of your new bot must have the suffix "Bot", for example:__"laravel_log_bot", "LaravelBot"__. The BotFather will ask you for a name and a username for your new bot (both of them must have the suffix "Bot").
 
 finally, the __[@BotFather](https://t.me/BotFather)__ will send you a message like this: 
 
@@ -71,7 +71,8 @@ next open the __config/logging.php__ file, search for the "channels" array and o
 
 # How to get the chat_id value
 
-You can make a request to the url: __[https://api.telegram.org/bot[YourBotAccessToken]/getUpdates](https://api.telegram.org/bot[YourBotAccessToken]/getUpdates)__ (change [YourBotAccessToken] by the "bot token" you have just gotten). Now you'll get a json like this:
+You can make a request to the url: __[https://api.telegram.org/bot[YourBotAccessToken]/getUpdates]
+(https://api.telegram.org/bot[YourBotAccessToken]/getUpdates)__ (change [YourBotAccessToken] by the "bot token" you have just gotten). Now you'll get a json like this:
 
 ```json
 {
