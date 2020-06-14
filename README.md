@@ -12,7 +12,7 @@ Once you have installed this package, execute the following command at laravel c
 php artisan vendor:publish --provider="Gjae\TelegramLogChannel\Providers\TelegramChannelProvider"
 ```
 
-It will create a file named ```config/telegram_channel.php``` located on .... It has the basic config. Now you will need to add a "chat ID" and a "bot api token" in this file.
+It will create a file named ```config/telegram_channel.php```. It has the basic config. Now you will need to add a "chat ID" and a "bot api token" in this file.
 
 # Quickstarter with telegram bots
 
