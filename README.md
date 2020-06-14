@@ -46,7 +46,7 @@ Open your ".env file" and look for the following lines and paste the Token and T
 
 >> NOTE 2: IF THE ID VALUE HAS ANY SYMBOL AT THE BEGINING, PUT THE ID VALUE INSIDE QUOTATION MARKS. Example: "-121412312"
 
-next open the __config/logging.php__ file, search for the "channels" array and overwrite it like this:
+next open the __config/logging.php__ file, look for the "channels" array and overwrite it like this:
 
 ```php
 [
